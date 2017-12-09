@@ -6,11 +6,11 @@ package com.example.android.musicalapp;
 
 public class Music {
     private String NameOfTheMusic;
-    private String NameOftheArtist;
+    private String NameOfTheArtist;
 
 
     public Music(String nameOftheArtist, String nameOfTheMusic) {
-        NameOftheArtist = nameOftheArtist;
+        NameOfTheArtist = nameOftheArtist;
         NameOfTheMusic = nameOfTheMusic;
     }
 
@@ -20,6 +20,6 @@ public class Music {
     }
 
     public String getNameOftheArtist() {
-        return NameOftheArtist;
+        return NameOfTheArtist;
     }
 }
